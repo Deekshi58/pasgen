@@ -1,0 +1,82 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing:border-box;
+  }
+body{
+    text-align: center;
+    color: aliceblue;
+    padding:26px;
+    background-image: url('img.jpg');
+    background-size: 100%;
+}
+label{
+    color:darkred;
+}
+button img{
+    cursor:pointer;
+    width:20px;   
+}
+#title-field{
+    margin-left:1px;
+    margin-right:50px;
+}
+textarea, button {
+    display: block;
+    padding:10px;
+    max-width:1000px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left:130px;
+    cursor: pointer;
+}
+img{
+    width: 20px;
+}
+.container h1{
+    color: rgb(17, 96, 4);
+    font-size:30px;
+    margin-top: 10px;
+    font-style:italic;
+    margin-left:20px;
+}
+.container h1:hover{
+    color: rgb(96, 8, 236);  
+}
+.container{
+    max-width:500px;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background: 10px;
+    background: rgba(255,255,255,0.3);
+}
+button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(140, 189, 245);
+    color:brown;
+    display:flex;
+    align-items: center;
+    padding:5px;
+    border-radius: 50px;
+    cursor: pointer;
+    max-width:200x;
+    margin-right: 150px;
+    border-color: #333;
+    font-style: italic;
+    margin-left:150px;
+}
+input {
+    padding:3px;
+    margin-top:5px;
+    align-items: center;
+    margin-bottom:10px;
+    color: #333;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius:20px;
+}
+button:hover{
+    color:palevioletred;
+    background-color:aliceblue;
+}
